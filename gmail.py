@@ -15,7 +15,7 @@ def enviar():
     #Como Criar a password
         #Gerenciar sua conta/Segurança/Como fazer login no google/Ativar 2 etapas/Senhas do app
     password = "Senha"
-    #albgvninycwzbskm senha de Paulo Henrique
+   
 
     msg.add_header("Content-Type","text/html")
     msg.set_payload(corpo)
