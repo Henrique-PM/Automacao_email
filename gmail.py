@@ -9,8 +9,8 @@ def enviar():
 
     msg=email.message.Message()
     msg["Subject"]="Assunto"
-    msg["From"]="Remetente"
-    msg["To"]="Destinatário"
+    msg["From"]="Remetente@gmail.com"
+    msg["To"]="Destinatário@gmail.com"
 
     #Como Criar a password
         #Gerenciar sua conta/Segurança/Como fazer login no google/Ativar 2 etapas/Senhas do app
