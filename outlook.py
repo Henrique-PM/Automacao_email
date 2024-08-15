@@ -7,14 +7,16 @@ email = outlook.CreateItem(0)
 email.To ="Destinatário"
 email.Subject ="Assunto"
 email.HTMLBody ="""
-<p>Olá é o Paulo<p>
-<p>Abs,<p>
-<p>TEXTO<p>
-<p>oi<p>
+<p>Olá é o Usuário</p>
+<p>Abs,</p>
+<p>TEXTO</p>
+<p>oi</p>
 
 """
-#anexo = c:\Users\pmonc\OneDrive\Área de Trabalho\....
-#email.Attachments.Add(anexo)
+# Adiciona um anexo (se necessário)
+# anexo = r'C:\Users\pmonc\OneDrive\Área de Trabalho\seuarquivo.ext'
+# email.Attachments.Add(anexo)
+
 
 email.Send()
 print("Email Enviado")
